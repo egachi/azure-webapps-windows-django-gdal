@@ -102,8 +102,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-GEOS_LIBRARY_PATH = 'D:\\home\\site\\bin\\geos_c.dll'
-GDAL_LIBRARY_PATH = 'D:\\home\\site\\bin\\gdal202.dll'
+GEOS_LIBRARY_PATH = 'D:\\home\\site\\bin\\'
+GDAL_LIBRARY_PATH = 'D:\\home\\site\\bin\\'
 
 #GEOS_LIBRARY_PATH = 'C:\\OSGeo4W\\bin\\geos_c.dll'
 #GDAL_LIBRARY_PATH = 'C:\\OSGeo4W\\bin\\gdal202.dll'
