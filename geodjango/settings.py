@@ -29,7 +29,7 @@ ALLOWED_HOSTS = ['*']
 
 #GDAL_LIBRARY_PATH = r'C:\\OSGeo4W\\bin\\gdal202.dll'
 GDAL_LIBRARY_PATH = r'D:\\home\\site\\bin\\OSGeo4W\bin\\gdal202.dll'
-#GEOS_LIBRARY_PATH = r'C:\\OSGeo4W\\bin\\geos_c'
+GEOS_LIBRARY_PATH = r'D:\\home\\site\\bin\\OSGeo4W\bin\\geos_c.dll'
 #PROJ4_LIBRARY_PATH = r'C:\\OSGeo4W\\bin\\proj'
 
 # Application definition
