@@ -4,10 +4,10 @@
     <runtime xdt:Transform="InsertIfMissing">
       <environmentVariables xdt:Transform="InsertIfMissing">
         <add name="OSGEO4W_ROOT" value="D:\home\site\bin\OSGeo4W" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
-        <add name="PYTHON_ROOT" value="D:\home\python364x86" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
         <add name="GDAL_DATA" value="D:\home\site\bin\OSGeo4W\share\gdal" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
         <add name="PROJ_LIB" value="D:\home\site\bin\OSGeo4W\share\proj" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
-        <add name="PATH" value="%PATH%;D:\home\python364x86;D:\home\site\bin\OSGeo4W\bin" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
+        <add name="PYTHON_ROOT" value="D:\home\python364x86" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
+        <add name="PATH" value="%PATH%;D:\home\site\bin\OSGeo4W\bin;D:\home\site\bin\OSGeo4W\share\gdal;D:\home\python364x86" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
       </environmentVariables>
     </runtime>
   </system.webServer>
